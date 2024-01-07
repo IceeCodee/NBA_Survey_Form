@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NBA Viewership Form</title>
+    <link rel='stylesheet' href='styles.css'>
+
+  </head>
+  <body>
+    <h1 id='title'>NBA Viewership Form</h1>
+    <p id='description'>Help us improve fan experience by filling out this survey</p>
+    <form id='survey-form'>
+      <fieldset>
+        <legend>Basic information </legend>
+      <label id='name-label'>
+      Enter your name: <input id='name' type='text' required placeholder='John' ></label>
+      <label id='email-label'> Enter your email:
+        <input id='email' type='email' required placeholder='john@email.com'> </label>
+        <label id='number-label'> Enter your age: <input type='number' id='number' placeholder='20' min='13' max='100'></label>
+        <label id='gender'>Gender: <select id='dropdown'>
+          <option value='1'>(select one)</option>
+          <option value='2'>Male</option>
+          <option value='3'>Female</option>
+          <option value='4'>Non-binary</option>
+          <option value='5'>other</option>
+          </select></label></fieldset>
+          <br>
+          <fieldset>
+            <legend> Rate your overall experience accessing NBA games</legend>
+          <label for='satisfaction-rate'>
+            <input type='radio' id='extremely-satisfied' name='satisfaction-rate' value='extremely-satisfied'>Extremely Satisfied</label>
+            <label><input type='radio' id='somewhat-satisfied' name='satisfaction-rate' value='somewhat-satisfied'>Somewhat Satisfied </label>
+            <label><input type='radio' id='neutral' name='satisfaction-rate' value='neutral'>Neutral</label>
+            <label><input type='radio' id='somewhat-dissatisfied' name='satisfaction-rate' value='somewhat-dissatisfied'>Somewhat Dissatisfied</label>
+           <label> <input type='radio' id='extremely-dissatisfied' name='satisfaction-rate' value='extremely-dissatisfied'>Extremely Dissatisfied
+          </label>
+      </fieldset>
+<br>
+      <fieldset>
+        <legend>Which network(s) do you watch NBA games on</legend>
+        <label> <input id='nba-tv' type='checkbox' value='nba-tv'>NBA TV</label>
+        <label> <input id='tnt' type='checkbox' value='tnt'>TNT</label>
+        <label> <input id='espn' type='checkbox' value='espn'>ESPN/ESPN+</label><label> <input id='league-pass' type='checkbox' value='league-pass'>NBA League Pass</label>
+        <label> <input id='abc' type='checkbox' value='abc'>ABC</label>
+        <label> <input id='local' type='checkbox' value='local'>Local Sports Network</label>
+        <label> <input id='other' type='checkbox' value='other'>Other</label>
+        </fieldset>
+<br>
+
+          <legend> Leave any additional comments below</legend>
+          <textarea id='comments' rows='6' cols='40'></textarea>
+        <input id='submit' type='submit' value='Submit'>
+
+    </form>
+
+  </body>

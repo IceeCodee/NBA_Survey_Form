@@ -1,0 +1,51 @@
+h1{
+  text-align: center;
+  color: #191a1a;
+}
+p{
+  font-style: italic;
+  text-align: center;
+  color: #191a1a;
+  margin-top: -16px;
+
+
+}
+body{
+  background-image: linear-gradient( 190deg, rgba(136, 136, 206, 0.70), rgba(136, 136, 206, 0.85) ), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOZIFA442CQHfufrxTj988jml59laqTJ85LzXXITOn8jhAVCURjNtalCg06-jVpPvmj-g&usqp=CAU);
+  color: #191a1a;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 650px;
+  font-size: 17px;
+}
+
+label{
+  display: block;
+  color: #191a1a;
+}
+
+#name{
+  width:20vw;
+  margin-bottom: 8px;
+}
+
+#email{
+  width: 40vw;
+  margin-bottom: 8px;
+}
+
+#number{
+  width: 7vw;
+  margin-bottom: 8px;
+}
+
+
+input[type='submit']{
+  display: block;
+  padding-left: 15px; padding-right: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-top: 15;
+  font-size: 14;
+
+}
